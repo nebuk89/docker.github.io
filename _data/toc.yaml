@@ -1286,8 +1286,6 @@ manuals:
       title: Install Docker Desktop for Mac
     - path: /docker-for-mac/
       title: User manual
-    - path: /docker-for-mac/multi-arch/
-      title: Leveraging Multi-CPU architecture support
     - path: /docker-for-mac/networking/
       title: Networking
     - path: /docker-for-mac/space/
@@ -1314,6 +1312,8 @@ manuals:
       title: Docker Desktop WSL 2 backend
   - path: /desktop/dashboard/
     title: Dashboard
+  - path: /desktop/multi-arch/
+    title: Multi-arch support
   - path: /desktop/kubernetes/
     title: Deploy on Kubernetes
   - path: /desktop/faqs/
@@ -1576,7 +1576,7 @@ manuals:
           title: VMware vSphere
       - path: /machine/migrate-to-machine/
         title: Migrate from Boot2Docker to Machine
-  - path: /docker-for-windows/docker-toolbox/
+  - path: /toolbox/
     title: Docker Toolbox (deprecated)
   - sectiontitle: Kitematic
     section:
@@ -1592,6 +1592,3 @@ manuals:
       title: Frequently asked questions
     - path: /kitematic/known-issues/
       title: Known issues
-    - path: /toolbox/faqs/troubleshoot/
-      title: Troubleshooting
-      nosync: true
