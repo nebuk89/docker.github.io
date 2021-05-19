@@ -1,8 +1,0 @@
-version: "3.7"
-services:
-  docs:
-    image: jekyll/jekyll
-    entrypoint: jekyll
-    command: serve
-    ports:
-      - 4000:4000
