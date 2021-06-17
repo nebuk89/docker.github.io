@@ -3,6 +3,6 @@ services:
   docs:
       context: .
     image: jekyll/jekyll
-    command: jekyll serve 
+    command: sleep infinity
     ports:
      - "4000:4000"
