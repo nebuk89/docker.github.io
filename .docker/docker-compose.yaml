@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  docs:
+      context: .
+    image: jekyll/jekyll
+    ports:
+     - "4000:4000"
