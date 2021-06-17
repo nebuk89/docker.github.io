@@ -3,5 +3,6 @@ services:
   docs:
       context: .
     image: jekyll/jekyll
+    command: jekyll serve 
     ports:
      - "4000:4000"
